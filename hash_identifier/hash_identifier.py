@@ -1,5 +1,4 @@
 # This is the first version where i just stored and know the lenght of the hash 
-
 print("This is a simple script to demonstrate a hash identifier.")
 hash_value = input("Paste a hash value to identify its type: ") # Get the hash value from the user
 print("Length:", len(hash_value)) # length of the hash value

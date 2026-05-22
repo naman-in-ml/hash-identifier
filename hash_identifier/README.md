@@ -28,6 +28,19 @@
  * using if `char in valid_chars` and `for char in hash_value` i can be sure that the string is hex 
  "Now i have to move this block after analysing lenght and before printing this is likely to be ...."
 
+### Problems
+* now if the lenght is 63 still it goes and chech each char 
+* i want it to follow this strict scheme 
+1. count the length if it is 32,40,64,128 only then it should check each char other wise print invalid string
+
+### Soution 
+IF length valid
+    IF chars valid
+        identify
+    ELSE
+        invalid chars
+ELSE
+    invalid length
 
 
 
@@ -63,3 +76,5 @@
 
 ### Lessons Learned 
 *  Remember that `Shift + Enter` in VS Code opens the interactive window. Use `exit()` to close it!
+* i dont' understand properly how the identation works inside loops of if else 
+* identation me problem ho rahi hai (bahut zyda hi problem ho gyi isme to )
